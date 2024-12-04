@@ -27,6 +27,12 @@ public class DeptAPIController {
 	public String deptApi() {
 		return "dept api controller";
 	}
+
+	@GetMapping("/test2")
+	public String deptApi2() {
+		return "I made a new test api!";
+	}
+
 	
 	@GetMapping("/depts")
 	public List<Dept> getDepts() {
